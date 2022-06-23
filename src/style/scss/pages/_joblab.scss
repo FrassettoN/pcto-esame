@@ -1,0 +1,10 @@
+@use '../abstracts' as *;
+
+.pagina.joblab{
+  a{
+    font-weight: bold;
+    width: max-content;
+    text-align: center;
+    color: var(--colore-PCTO);
+  }
+}

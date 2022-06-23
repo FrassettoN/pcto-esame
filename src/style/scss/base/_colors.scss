@@ -1,0 +1,17 @@
+@use '../abstracts' as *;
+
+.fisica{
+  --colore-PCTO: #{$fisica}; 
+}
+.chimica{
+  --colore-PCTO: #{$chimica}; 
+}
+.coding{
+  --colore-PCTO: #{$coding}; 
+}
+.joblab{
+  --colore-PCTO: #{$joblab}; 
+}
+.stampa3D{
+  --colore-PCTO: #{$stampa3D}; 
+}
