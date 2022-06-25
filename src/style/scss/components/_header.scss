@@ -24,15 +24,6 @@
     letter-spacing: 1px;
   }
 
-  // Fix header (when scrolling)
-  &.fixed {
-    position: fixed;
-    background: $background-color;
-    top: 0;
-    height: 5em;
-    margin: 0;
-  }
-
   nav {
     display: inline;
 
@@ -79,12 +70,7 @@
     }
 
     @include responde-to(medium) {
-      margin: auto auto auto 2em;
-
-      #signUpLink {
-        display: none;
-      }
-    }
+      margin: auto auto auto 2em;}
   }
 
   &__openMenu {
@@ -109,37 +95,6 @@
     }
     @include responde-to(medium) {
       display: none;
-    }
-  }
-
-  &__account,
-  &__authentication {
-    order: 2;
-    margin: 0 1em;
-
-    @include responde-to(medium) {
-      margin: 0 2.5% 0 0;
-    }
-  }
-
-  &__logIn {
-    display: inline-block;
-
-    @include responde-to(medium) {
-      margin: 0 1.5em;
-    }
-  }
-
-  #signUpBtn {
-    @include from-to(small, medium) {
-      display: none;
-    }
-
-    @include responde-to(medium) {
-      display: inline-block;
-      &.currentPage {
-        border: 2px solid $main-color;
-      }
     }
   }
 }

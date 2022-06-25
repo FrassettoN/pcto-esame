@@ -1,0 +1,78 @@
+@use '../abstracts' as *;
+
+.home{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  h1{
+    width: 80%;
+    margin: 1em auto;
+    font-size: clamp(2rem, 5vw, 5rem);
+    line-height:2em;
+    span{
+      background-image: linear-gradient(90deg, $main-color, $second-color);
+      background-clip: text;
+      color: rgba($color: #000000, $alpha: 0);
+      font-weight: 700;
+    }
+  }
+
+  small {
+    display: block;
+    margin: 3em auto;
+  }
+
+  a{
+    width: 80%;
+    border-radius: 30px;
+    padding: 0.5em;
+    margin: 1em auto;
+    display: flex;
+    background-color: var(--colore-PCTO);
+    color: white;
+    align-items: center;
+    box-shadow: 0 0 5px 4px rgba($color: #000000, $alpha: 0.2);
+
+
+    @include responde-to(medium){
+      width: 50%;
+    }
+
+    img{
+      width: 35%;
+      border-radius: 50%;
+      aspect-ratio: 1;
+      border: 10px solid var(--colore-PCTO);
+    }
+    
+    h3{
+      font-size: clamp(1rem, 2.5vw, 3.5em);
+      padding-left: 1em;
+    }
+
+    &:nth-child(odd){
+
+      img {
+        order: 1;
+        margin: 0 auto 0 -12%;
+      }
+
+      section {
+        order: 2;
+      }
+      
+    }
+
+    &:nth-child(even){
+      img {
+        order: 2;
+        margin: 0 -12% 0 auto;
+      }
+
+
+      section {
+        order: 1;
+      }
+    }
+  }
+}

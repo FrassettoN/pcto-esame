@@ -76,13 +76,6 @@ body {
     letter-spacing: 1px;
   }
 }
-.header.fixed {
-  position: fixed;
-  background: #ffffff;
-  top: 0;
-  height: 5em;
-  margin: 0;
-}
 .header nav {
   display: inline;
 }
@@ -128,9 +121,6 @@ body {
   .header__menu {
     margin: auto auto auto 2em;
   }
-  .header__menu #signUpLink {
-    display: none;
-  }
 }
 @media only screen and (min-width: 300px) and (max-width: 899px) {
   .header__openMenu {
@@ -157,36 +147,6 @@ body {
 @media only screen and (min-width: 900px) {
   .header__closeMenu {
     display: none;
-  }
-}
-.header__account, .header__authentication {
-  order: 2;
-  margin: 0 1em;
-}
-@media only screen and (min-width: 900px) {
-  .header__account, .header__authentication {
-    margin: 0 2.5% 0 0;
-  }
-}
-.header__logIn {
-  display: inline-block;
-}
-@media only screen and (min-width: 900px) {
-  .header__logIn {
-    margin: 0 1.5em;
-  }
-}
-@media only screen and (min-width: 300px) and (max-width: 899px) {
-  .header #signUpBtn {
-    display: none;
-  }
-}
-@media only screen and (min-width: 900px) {
-  .header #signUpBtn {
-    display: inline-block;
-  }
-  .header #signUpBtn.currentPage {
-    border: 2px solid #365393;
   }
 }
 
@@ -360,6 +320,7 @@ body {
 }
 .coding img {
   width: 100%;
+  margin: 2em auto;
 }
 
 .pagina.joblab a {
@@ -367,6 +328,68 @@ body {
   width: max-content;
   text-align: center;
   color: var(--colore-PCTO);
+}
+
+.home {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.home h1 {
+  width: 80%;
+  margin: 1em auto;
+  font-size: clamp(2rem, 5vw, 5rem);
+  line-height: 2em;
+}
+.home h1 span {
+  background-image: linear-gradient(90deg, #365393, #05768a);
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  font-weight: 700;
+}
+.home small {
+  display: block;
+  margin: 3em auto;
+}
+.home a {
+  width: 80%;
+  border-radius: 30px;
+  padding: 0.5em;
+  margin: 1em auto;
+  display: flex;
+  background-color: var(--colore-PCTO);
+  color: white;
+  align-items: center;
+  box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (min-width: 900px) {
+  .home a {
+    width: 50%;
+  }
+}
+.home a img {
+  width: 35%;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  border: 10px solid var(--colore-PCTO);
+}
+.home a h3 {
+  font-size: clamp(1rem, 2.5vw, 3.5em);
+  padding-left: 1em;
+}
+.home a:nth-child(odd) img {
+  order: 1;
+  margin: 0 auto 0 -12%;
+}
+.home a:nth-child(odd) section {
+  order: 2;
+}
+.home a:nth-child(even) img {
+  order: 2;
+  margin: 0 -12% 0 auto;
+}
+.home a:nth-child(even) section {
+  order: 1;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

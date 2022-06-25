@@ -7,7 +7,7 @@ import imgCoding from '../images/coding/coding.png';
 
 const Coding = () => {
   return (
-    <main className=' coding'>
+    <main className='coding'>
       <h1>Coding e Pensiero Computazionale</h1>
       <div className='table'>
         <aside>
