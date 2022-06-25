@@ -44,7 +44,7 @@ const Home = () => {
               <h3>Potenziamento di Chimica</h3>
             </section>
           </Link>
-          <Link to='coding' className='coding'>
+          <Link to='coding/descrizione' className='coding'>
             <img src={imgCoding} alt='' />
             <section>
               <h3>Coding e Pensiero Computazionale</h3>

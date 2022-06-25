@@ -24,7 +24,7 @@ const Header = () => {
             <NavLink to='joblab'>JOBLAB@Bocconi</NavLink>
             <NavLink to='stampa3D'>Stampa 3D</NavLink>
             <NavLink to='chimica'>Chimica</NavLink>
-            <NavLink to='coding'>Coding</NavLink>
+            <NavLink to='coding/descrizione'>Coding</NavLink>
           </nav>
         </div>
       </div>
