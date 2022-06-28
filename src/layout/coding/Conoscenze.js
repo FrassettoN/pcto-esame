@@ -15,7 +15,7 @@ const Conoscenze = () => {
         </li>
         <li>
           <span>Blockchain</span>: il mercato degli <span>NFT</span> tra
-          informatica e arte e lo sviluppo delle <span>cryptovalute</span>.
+          informatica e arte e lo sviluppo delle <span>criptovalute</span>.
         </li>
         <li>
           Lo sviluppo della <span>robotica</span> a partire dai primi automi e

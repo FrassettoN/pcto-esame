@@ -342,10 +342,21 @@ body {
   line-height: 2em;
 }
 .home h1 span {
-  background-image: linear-gradient(90deg, #365393, #05768a);
+  background-image: linear-gradient(90deg, #05768a, #365393);
   background-clip: text;
   color: rgba(0, 0, 0, 0);
   font-weight: 700;
+}
+.home .title img {
+  width: 50%;
+  display: none;
+  margin: 0 auto;
+  aspect-ratio: 1;
+}
+@media only screen and (min-width: 900px) {
+  .home .title img {
+    display: block;
+  }
 }
 .home small {
   display: block;
