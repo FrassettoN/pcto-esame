@@ -20,10 +20,10 @@ const Descrizione = () => {
         <span>chiavi di lettura</span> e nuove{' '}
         <span>forme di ragionamento</span>.
         <br />
-        Durante il progetto sono stato affiancato dalla professoressa Fabozzi,
-        che si è occupata di approfondire aspetti legati alla storia dei
-        computer, le sue moderne applicazioni e le prospettive future,
-        comprendendo talvolta altre materie quali biologia o arte.
+        Durante il progetto, durato 32 ore, sono stato affiancato dalla
+        professoressa Fabozzi, che si è occupata di approfondire aspetti legati
+        alla storia dei computer, le sue moderne applicazioni e le prospettive
+        future, comprendendo talvolta altre materie quali biologia o arte.
       </p>
     </div>
   );

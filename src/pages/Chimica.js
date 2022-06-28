@@ -6,11 +6,11 @@ const Chimica = () => {
     <main className='pagina chimica'>
       <h1>Potenziamento di Chimica</h1>
       <p>
-        Durante le 11 lezioni tenute dalla professoressa Alfieri ho approfondito
-        argomenti di chimica sia nuovi che già trattati in classe. Il corso,
-        tenutosi tra ottobre e maggio della seconda liceo, mi ha permesso di
-        comiciare a studiare per i test di ingresso per le{' '}
-        <span>facoltà bio</span> e per <span>medicina</span>.
+        Durante le 11 lezioni - ognuna da un'ora e mezza - tenute dalla
+        professoressa Alfieri ho approfondito argomenti di chimica sia nuovi che
+        già trattati in classe. Il corso, tenutosi tra ottobre e maggio della
+        seconda liceo, mi ha permesso di comiciare a studiare per i test di
+        ingresso per le <span>facoltà bio</span> e per <span>medicina</span>.
       </p>
       <section>
         <img src={imgChimica} alt='' />

@@ -7,9 +7,9 @@ const JobLab = () => {
       <h1>JOBLAB@Bocconi</h1>
       <p>
         Durante la settimana di <span>JobLab</span> presso l'università{' '}
-        <span>Bocconi</span>, svolta online durante l'estate tra la prima e la
-        seconda liceo, ho preso parte a lezioni di carattere{' '}
-        <span>economico e imprenditoriale</span> tenute da professori
+        <span>Bocconi</span>, svolta online per un totale di 27 ore durante
+        l'estate tra la prima e la seconda liceo, ho preso parte a lezioni di
+        carattere <span>economico e imprenditoriale</span> tenute da professori
         universitari e da membri della società <span>Accenture</span>. Se le
         lezioni proposte sono state talvolta interessanti, le attività di gruppo
         sono risultate fallimentari a causa del numero troppo elevato di
